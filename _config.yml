@@ -9,6 +9,7 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+#
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
@@ -16,7 +17,7 @@
 title: Textventure
 email: mark@remarkablemark.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Write and play text adventures with Textventure.
+  Textventure is a platform for playing and writing text adventures.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -24,10 +25,17 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
 permalink: /posts/:title/
+sass:
+  style: :compressed
+encoding: utf-8
+safe: true
 
 # Exclude from processing.
+#
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
