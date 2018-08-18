@@ -38,11 +38,16 @@ safe: true
 #
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+- Gemfile
+- Gemfile.lock
+# comment the line and uncomment the items below during development
+- spec/
+#- spec/.git/
+#- spec/CHANGELOG.md
+#- spec/node_modules/
+#- spec/VERSION.md
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
