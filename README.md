@@ -1,6 +1,6 @@
-# [textventure.github.io](https://textventure.github.io)
+# [textventure.github.io](https://textventure.github.io/)
 
-Site of [textventure](https://textventure.github.io). Built with [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com).
+Site of [textventure](https://textventure.github.io/). Built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 
 ## Requirements
 
@@ -10,7 +10,7 @@ You need [Ruby](https://www.ruby-lang.org/en/downloads/) 2.1.0 or higher:
 $ ruby --version
 ```
 
-And [Bundler](http://bundler.io):
+And [Bundler](http://bundler.io/):
 
 ```sh
 # gem install bundler
@@ -22,7 +22,7 @@ $ bundler --version
 Clone the repository:
 
 ```sh
-$ git clone https://github.com/textventure/textventure.github.io.git
+$ git clone --recursive https://github.com/textventure/textventure.github.io.git
 $ cd textventure.github.io
 ```
 
@@ -44,17 +44,17 @@ $ bundle update
 
 ## Run
 
-### Development server:
+### Development server
 
 ```sh
-$ bundle exec jekyll serve --livereload
+$ bundle exec jekyll serve --livereload # --incremental
 ```
 
 The server will be running at [`http://127.0.0.1:4000/`](http://127.0.0.1:4000/).
 
 Press `CTRL-C` to stop the server.
 
-### Production build:
+### Production build
 
 ```sh
 $ bundle exec jekyll build
