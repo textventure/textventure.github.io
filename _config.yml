@@ -39,7 +39,6 @@ safe: true
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-- CNAME
 - Gemfile
 - Gemfile.lock
 # comment the line and uncomment the items below during development
