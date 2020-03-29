@@ -10,19 +10,19 @@ Textventure is the organization behind the standards and tooling for writing and
 
 # What is a textventure?
 
-A textventure is a [text adventure](https://wikipedia.org/wiki/Interactive_fiction) game in which a story can have many outcomes and the player can choose one of the outcomes.
+A textventure is an interactive [text adventure](https://en.wikipedia.org/wiki/Interactive_fiction) that anyone can write and play.
 
-# Where can I play textventures?
+# Where can I play a textventure?
 
-You can play textventures [here](/play/).
+You can play a textventure at [`/play/`](https://textventure.github.io/play/).
 
 # How do I write a textventure?
 
-Read the [spec]({% link spec.md %}) to learn how it works. Then play the [demo](https://textventure.org/play/?url=https%3A%2F%2Ftextventure.org%2Fplay%2Fdemo.yaml&id=start).
+Read the [spec]({% link spec.md %}) to learn how it works. Then play the [demo](https://textventure.github.io/play/?url=https%3A%2F%2Ftextventure.github.io%2Fplay%2Fdemo.yaml&id=start).
 
 # Can I contribute to Textventure?
 
-Of course you can! You can find our GitHub page [here](https://github.com/textventure/).
+Yes you can! Our GitHub organization is [@textventure](https://github.com/textventure/).
 
 # Is Textventure free?
 
@@ -30,4 +30,4 @@ Many of our projects are open-source. Content not owned by Textventure are the p
 
 # Who created Textventure?
 
-[Mark](https://remarkablemark.org/) created Textventure.
+Textventure was created by [remarkablemark](https://remarkablemark.org/) .
