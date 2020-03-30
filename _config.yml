@@ -41,13 +41,14 @@ safe: true
 exclude:
 - Gemfile
 - Gemfile.lock
-# comment the line and uncomment the items below during development
-- spec/
-#- spec/.git/
-#- spec/CHANGELOG.md
-#- spec/node_modules/
-#- spec/VERSION.md
 - vendor/bundle/
 - vendor/cache/
 - vendor/gems/
 - vendor/ruby/
+# Custom list
+- node_modules/
+- README.md
+- spec/node_modules/
+- spec/CHANGELOG.md
+- spec/package.json
+- spec/VERSION.md
