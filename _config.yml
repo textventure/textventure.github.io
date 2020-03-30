@@ -52,3 +52,10 @@ exclude:
 - spec/CHANGELOG.md
 - spec/package.json
 - spec/VERSION.md
+
+# Customize navigation links
+#
+# https://github.com/jekyll/minima#customize-navigation-links
+header_pages:
+- about.md
+- spec.md
